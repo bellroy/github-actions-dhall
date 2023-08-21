@@ -6,5 +6,5 @@
     }
 /\  { types =
         ./types.dhall
-          sha256:d5c8dc5f02a449316dc2a8ac0e1b145b545ba73c900bfc2bc97f097929af3f1c
+          sha256:db8f60999ce6212d8920097f795fc2d6e77f1e180e74880cc198d216c061a308
     }
