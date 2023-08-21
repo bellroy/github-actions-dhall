@@ -6,7 +6,7 @@
       sha256:9ccec904643ade1050323d9ce5da865a3ad8c764a7cbc0f3c397717b1a0ece74
 , On =
     ./schemas/On.dhall
-      sha256:5990a52c265e25030eeb8bf980550dd16c71c3fd32b481711d944186a5bd28c5
+      sha256:0af282ef00602c88754869aeffd22ea9cd451f6ee48a3b3127330ea695c12b8c
 , RunsOn =
     ./schemas/RunsOn.dhall
       sha256:86f5d1f0c5dc24b2033237a9194f70b14326d6bae031bd44a0630e45dd3a4b3a
@@ -21,7 +21,7 @@
       sha256:ccf7857f3b39aba24ae09b6eb2b430c96be6b3bc697ed6f0bae464e1e7bdff82
 , Workflow =
     ./schemas/Workflow.dhall
-      sha256:4463d84c01f2c6dfbad0eff1493af27adaee37ee80cde0c7cf2a6053ec88be92
+      sha256:c5a60208a62b4492a4fa48eb2430847ddd3c796392fd8db71327dbb15b8e6484
 , Push =
     ./schemas/events/Push.dhall
       sha256:42b2efddec698fbb36321e738286478b35dfd9420ce10798659237570db55024
@@ -33,7 +33,7 @@
       sha256:53256e908fe5eb196af560db2c337b6cbc35c2eee48d6d459714554c8f777c9d
 , PullRequestTarget =
     ./schemas/events/PullRequestTarget.dhall
-      sha256:6ae100205bbbf6a3d093ee8fa1cf03b19576846d38249a71c6f4402d0a201c49
+      sha256:b0f7415f9183618c3cd3f5bb8acec121829b61a95d5b08d828228657f968b2b1
 , Delete =
     ./schemas/events/Delete.dhall
       sha256:81a1bf11fb9dc588941bd83400ed571298585a700a53e858456806f7ea3b8ce2
