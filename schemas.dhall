@@ -1,12 +1,12 @@
 { Job =
     ./schemas/Job.dhall
-      sha256:737288e197103c8d0a267bc31f4939d2aa8e7d1feb849836e9aac8986f39a9f1
+      sha256:e96bc1c8a9f662d348bd72a2613449cade5e00ab3132de531ce04ce859faba48
 , JobEnv =
     ./schemas/JobEnv.dhall
       sha256:9ccec904643ade1050323d9ce5da865a3ad8c764a7cbc0f3c397717b1a0ece74
 , On =
     ./schemas/On.dhall
-      sha256:628e8c2a25e427a771d7412d0edf38a59ad5662958b8909bfe145c9db02fb344
+      sha256:b1f216f4eba7db0981c3b611ca704a6ddda23ce53643cad26ddd96f0f8444e6b
 , RunsOn =
     ./schemas/RunsOn.dhall
       sha256:86f5d1f0c5dc24b2033237a9194f70b14326d6bae031bd44a0630e45dd3a4b3a
@@ -21,19 +21,19 @@
       sha256:ccf7857f3b39aba24ae09b6eb2b430c96be6b3bc697ed6f0bae464e1e7bdff82
 , Workflow =
     ./schemas/Workflow.dhall
-      sha256:7078d37e4c867fb2875fedf80fb20df7a2c7c42952dd11440eb7fc39f8ca3225
+      sha256:b72583f0346169b1c24f73412f29b193e282a5e74b42e69b8ad73f2eebf3fe57
 , Push =
     ./schemas/events/Push.dhall
       sha256:42b2efddec698fbb36321e738286478b35dfd9420ce10798659237570db55024
 , PullRequest =
     ./schemas/events/PullRequest.dhall
-      sha256:c4ed0bb5d4968a4cccd48c978fc1c1f8bf0ee12265f6e3ea043e53f18f6c06a7
+      sha256:35c325a81978da6982f1eb67605366b0a18510c142b7f425c38ce9c805e935ef
 , PullRequestReview =
     ./schemas/events/PullRequestReview.dhall
       sha256:53256e908fe5eb196af560db2c337b6cbc35c2eee48d6d459714554c8f777c9d
 , PullRequestTarget =
     ./schemas/events/PullRequestTarget.dhall
-      sha256:6ae100205bbbf6a3d093ee8fa1cf03b19576846d38249a71c6f4402d0a201c49
+      sha256:b0f7415f9183618c3cd3f5bb8acec121829b61a95d5b08d828228657f968b2b1
 , Delete =
     ./schemas/events/Delete.dhall
       sha256:81a1bf11fb9dc588941bd83400ed571298585a700a53e858456806f7ea3b8ce2
@@ -43,9 +43,18 @@
 , Input =
     ./schemas/Input.dhall
       sha256:f15ab36ac38cb32a757173088ec95050e3cb3fe8765bd1d4cc49851cec7877d8
+, Output =
+    ./schemas/Output.dhall
+      sha256:f01b31455186c9ecf937b48023d9408a7d5bf5db3fc4964b6060a43e1c4dabe8
+, Secret =
+    ./schemas/Secret.dhall
+      sha256:a58fd6ad314edcd6800e283206de83e76cb0b3d56998570b1f5482a2d8f4a56f
 , RepositoryDispatch =
     ./schemas/events/RepositoryDispatch.dhall
       sha256:53256e908fe5eb196af560db2c337b6cbc35c2eee48d6d459714554c8f777c9d
+, WorkflowCall =
+    ./schemas/events/WorkflowCall.dhall
+      sha256:cafacd2c02714f9e00ad420661a13bf80bab0921f99601ff38338e6eaefc1ad9
 , WorkflowDispatch =
     ./schemas/events/WorkflowDispatch.dhall
       sha256:f3243d9aaa461034e9844d51fb4e2c646a956ea3df2d1f12ae31e16ee29b1a55
@@ -61,6 +70,9 @@
 , Concurrency =
     ./schemas/Concurrency.dhall
       sha256:2ed562a8c402ad394223c57857e52915ab16b94775dfc0f4d277f227b6c6d450
+, Container =
+    ./schemas/Container.dhall
+      sha256:7eee1486550d25ac8de00cb12cfdb1cba0e1a1360f04c52fdf092b31411131e6
 , MergeGroup =
     ./schemas/events/MergeGroup.dhall
       sha256:4a3e8748d9a20ab6beec8bd7dcca67b465e600563c5dbfca4cd3d464c9f69dcb
