@@ -1,8 +1,8 @@
 let Step = ../../schemas/Step.dhall
 
 let Text/concatMapSep =
-      https://raw.githubusercontent.com/dhall-lang/dhall-lang/refs/tags/v17.1.0/Prelude/Map/package.dhall
-        sha256:598e9c76103b2686fbbda6cc30078f9e60dd846d9eaf155d0149cf0ae06c21c5
+      https://raw.githubusercontent.com/dhall-lang/dhall-lang/refs/tags/v17.1.0/Prelude/Text/concatMapSep.dhall
+        sha256:c272aca80a607bc5963d1fcb38819e7e0d3e72ac4d02b1183b1afb6a91340840
 
 let List/null =
       https://raw.githubusercontent.com/dhall-lang/dhall-lang/refs/tags/v17.1.0/Prelude/List/null.dhall
