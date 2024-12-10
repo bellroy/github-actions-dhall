@@ -16,6 +16,9 @@
 , Strategy =
     ./schemas/Strategy.dhall
       sha256:d4c067e9f65df4219e092c848cfc5e2b1987d7cfeac9bc7edfeac7f86d68f3e2
+, Matrix =
+    ./schemas/Matrix.dhall
+      sha256:ae0c16bbe9b6b8e5b58735a0cd2497dc45886f6bf582a72a83e731861510e157
 , Service =
     ./schemas/Service.dhall
       sha256:ccf7857f3b39aba24ae09b6eb2b430c96be6b3bc697ed6f0bae464e1e7bdff82
