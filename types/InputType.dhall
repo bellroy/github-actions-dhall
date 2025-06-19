@@ -1,6 +1,1 @@
-< boolean
-| choice
-| number
-| environment
-| string
->
+< boolean | choice | number | environment | string >

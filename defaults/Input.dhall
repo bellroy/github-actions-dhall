@@ -1,1 +1,5 @@
-{ description = None Text, default = None Text, required = False, type = None ../types/InputType.dhall }
+{ description = None Text
+, default = None Text
+, required = False
+, type = None ../types/InputType.dhall
+}

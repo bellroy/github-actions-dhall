@@ -18,4 +18,4 @@
 , submodules : Optional Text
 , set-safe-directory : Optional Bool
 , github-server-url : Optional Text
-} 
+}

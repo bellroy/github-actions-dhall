@@ -18,4 +18,4 @@
 , submodules = None Text
 , set-safe-directory = None Bool
 , github-server-url = None Text
-} 
+}

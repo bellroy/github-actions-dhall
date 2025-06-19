@@ -17,8 +17,7 @@ let Checkout = ../../schemas/actions/Checkout.dhall
 let stringBool =
       Optional/map Bool Text (λ(b : Bool) → if b then "true" else "false")
 
-let stringNatural =
-      Optional/map Natural Text (λ(n : Natural) → Natural/show n)
+let stringNatural = Optional/map Natural Text (λ(n : Natural) → Natural/show n)
 
 let checkout
     : Checkout.Type → Step.Type
@@ -49,7 +48,8 @@ let checkout
                     , clean = stringBool args.clean
                     , filter = args.filter
                     , sparse-checkout = args.sparse-checkout
-                    , sparse-checkout-cone-mode = stringBool args.sparse-checkout-cone-mode
+                    , sparse-checkout-cone-mode =
+                        stringBool args.sparse-checkout-cone-mode
                     , fetch-depth = stringNatural args.fetch-depth
                     , fetch-tags = stringBool args.fetch-tags
                     , show-progress = stringBool args.show-progress
@@ -60,6 +60,6 @@ let checkout
                     }
                 )
             )
-      }
+        }
 
 in  checkout

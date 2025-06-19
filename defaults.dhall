@@ -13,12 +13,21 @@
 , Workflow =
     ./defaults/Workflow.dhall
       sha256:7581b7a9a9ad5cee65ddb349a9334a90932a5a8c02b5b6738ba20bcefc279f71
+, IssueComment =
+    ./defaults/events/IssueComment.dhall
+      sha256:0b6c2901d8f26ad1ca0df889ac09eb55534473c92166097a5e8b717b90358cc8
+, Issues =
+    ./defaults/events/Issues.dhall
+      sha256:0b6c2901d8f26ad1ca0df889ac09eb55534473c92166097a5e8b717b90358cc8
 , Push =
     ./defaults/events/Push.dhall
       sha256:429ab447921ab87a92a45f8e3078a19f0efeef58e859f4648af9c4a2c2976180
 , PullRequest =
     ./defaults/events/PullRequest.dhall
       sha256:9e2fc019f7ce975624fd1f0b643d7356fcd4626ea3af911b21e9d046cf2c0d16
+, PullRequestComment =
+    ./defaults/events/PullRequestComment.dhall
+      sha256:0b6c2901d8f26ad1ca0df889ac09eb55534473c92166097a5e8b717b90358cc8
 , PullRequestReview =
     ./defaults/events/PullRequestReview.dhall
       sha256:9adb6b3b154d4f1df647c43579e37be36ac9bbb7848cdba159863220ec52bb9f

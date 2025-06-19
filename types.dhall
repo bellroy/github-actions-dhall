@@ -28,12 +28,21 @@
 , Workflow =
     ./types/Workflow.dhall
       sha256:8b9199905c1a9a900e2678c36018d93815c2339db5c5f65d54e9873f468c48f9
+, IssueComment =
+    ./types/events/IssueComment.dhall
+      sha256:53256e908fe5eb196af560db2c337b6cbc35c2eee48d6d459714554c8f777c9d
+, Issues =
+    ./types/events/Issues.dhall
+      sha256:53256e908fe5eb196af560db2c337b6cbc35c2eee48d6d459714554c8f777c9d
 , Push =
     ./types/events/Push.dhall
       sha256:5147b1dd6eca94aae5d217b979cac20ba64b7ec160488dd917f171cae451b135
 , PullRequest =
     ./types/events/PullRequest.dhall
       sha256:6b42c650c5a849dc6445287b85f6a55618f5e135be6cb8ef847a9c46d6c6672c
+, PullRequestComment =
+    ./types/events/PullRequestComment.dhall
+      sha256:53256e908fe5eb196af560db2c337b6cbc35c2eee48d6d459714554c8f777c9d
 , PullRequestReview =
     ./types/events/PullRequestReview.dhall
       sha256:f7a1d37a7fa9ce33f736813d132503dcf9c46a3fc72c7327c07d799af9f6ea63
