@@ -1,8 +1,14 @@
+let IssueComment = ./events/IssueComment.dhall
+
+let Issues = ./events/Issues.dhall
+
 let Push = ./events/Push.dhall
 
 let PullRequest = ./events/PullRequest.dhall
 
 let PullRequestReview = ./events/PullRequestReview.dhall
+
+let PullRequestReviewComment = ./events/PullRequestReviewComment.dhall
 
 let Delete = ./events/Delete.dhall
 
@@ -22,9 +28,12 @@ let MergeGroup = ./events/MergeGroup.dhall
 
 let PullRequestTarget = ./events/PullRequestTarget.dhall
 
-in  { push : Optional Push
+in  { issue_comment : Optional IssueComment
+    , issues : Optional Issues
+    , push : Optional Push
     , pull_request : Optional PullRequest
     , pull_request_review : Optional PullRequestReview
+    , pull_request_review_comment : Optional PullRequestReviewComment
     , pull_request_target : Optional PullRequestTarget
     , delete : Optional Delete
     , schedule : Optional (List Schedule)
