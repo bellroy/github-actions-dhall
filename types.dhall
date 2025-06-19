@@ -12,7 +12,7 @@
       sha256:060bf27380c527f136c2c86ba1cf1f7cab6ad3dd339e655db0873cc8068b7b9d
 , On =
     ./types/On.dhall
-      sha256:72fbd13d4345c106ea4dcaea1e90886f87132165c9203ffcf4a230c216ddb754
+      sha256:5c14d960d6a4c3450aa3332389a794def1d98d9a15d66e220e9850ac696f28f0
 , Step =
     ./types/Step.dhall
       sha256:c2efe65fd3b819521612000af9ebee52e7a74cce4c37de891dcdc7d6c25169fa
@@ -27,24 +27,24 @@
       sha256:c957b80c6a0d53dce7bf05921c1983797b5d52958ded76244cd94ae80deb94e5
 , Workflow =
     ./types/Workflow.dhall
-      sha256:8b9199905c1a9a900e2678c36018d93815c2339db5c5f65d54e9873f468c48f9
+      sha256:bba57b7a0a2cd1bfe5584601461edf6f3b7d1dbcab4a68d1ae59faf26d3d74b7
 , IssueComment =
     ./types/events/IssueComment.dhall
-      sha256:53256e908fe5eb196af560db2c337b6cbc35c2eee48d6d459714554c8f777c9d
+      sha256:f7a1d37a7fa9ce33f736813d132503dcf9c46a3fc72c7327c07d799af9f6ea63
 , Issues =
     ./types/events/Issues.dhall
-      sha256:53256e908fe5eb196af560db2c337b6cbc35c2eee48d6d459714554c8f777c9d
+      sha256:f7a1d37a7fa9ce33f736813d132503dcf9c46a3fc72c7327c07d799af9f6ea63
 , Push =
     ./types/events/Push.dhall
       sha256:5147b1dd6eca94aae5d217b979cac20ba64b7ec160488dd917f171cae451b135
 , PullRequest =
     ./types/events/PullRequest.dhall
       sha256:6b42c650c5a849dc6445287b85f6a55618f5e135be6cb8ef847a9c46d6c6672c
-, PullRequestComment =
-    ./types/events/PullRequestComment.dhall
-      sha256:53256e908fe5eb196af560db2c337b6cbc35c2eee48d6d459714554c8f777c9d
 , PullRequestReview =
     ./types/events/PullRequestReview.dhall
+      sha256:f7a1d37a7fa9ce33f736813d132503dcf9c46a3fc72c7327c07d799af9f6ea63
+, PullRequestReviewComment =
+    ./types/events/PullRequestReviewComment.dhall
       sha256:f7a1d37a7fa9ce33f736813d132503dcf9c46a3fc72c7327c07d799af9f6ea63
 , PullRequestTarget =
     ./types/events/PullRequestTarget.dhall

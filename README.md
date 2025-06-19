@@ -32,3 +32,8 @@ curl https://regadas.dev/github-actions-dhall/examples/scala.dhall | dhall-to-ya
 ```bash
 curl https://regadas.dev/github-actions-dhall/examples/release-scala.dhall | dhall-to-yaml
 ```
+
+## Developing
+
+If you make any changes in this Dhall repository, run `make freeze` on the command line to update
+all the checksums, and then ask yourself what you're doing with your life.

@@ -6,7 +6,7 @@
       sha256:9ccec904643ade1050323d9ce5da865a3ad8c764a7cbc0f3c397717b1a0ece74
 , On =
     ./schemas/On.dhall
-      sha256:d603159cb9fee79b830cb1c1bb58fb247a1984795a4a01a1ee26baa8dc531e8a
+      sha256:905f76b463443ef42b0132ca740bd042e62f8b50bf400cffc1c5151d50248469
 , RunsOn =
     ./schemas/RunsOn.dhall
       sha256:8bdd3fbcd62c0e10dbd78a71ca155c712df5687f2e93713c7e6248ffe9739f6d
@@ -21,7 +21,7 @@
       sha256:ccf7857f3b39aba24ae09b6eb2b430c96be6b3bc697ed6f0bae464e1e7bdff82
 , Workflow =
     ./schemas/Workflow.dhall
-      sha256:7b9fde125f72f9db6fdd98399ff4e8431376861a33bb3c203e5b33da0f48fd22
+      sha256:92c65b5cc382cacd70c7585c8aa8d3e8021fe8230d84a739fb795d0a067115ac
 , IssueComment =
     ./schemas/events/IssueComment.dhall
       sha256:53256e908fe5eb196af560db2c337b6cbc35c2eee48d6d459714554c8f777c9d
@@ -31,9 +31,9 @@
 , Push =
     ./schemas/events/Push.dhall
       sha256:42b2efddec698fbb36321e738286478b35dfd9420ce10798659237570db55024
-, PullRequestComment =
-    ./schemas/events/PullRequest.dhall
-      sha256:35c325a81978da6982f1eb67605366b0a18510c142b7f425c38ce9c805e935ef
+, PullRequestReviewComment =
+    ./schemas/events/PullRequestReviewComment.dhall
+      sha256:53256e908fe5eb196af560db2c337b6cbc35c2eee48d6d459714554c8f777c9d
 , PullRequest =
     ./schemas/events/PullRequest.dhall
       sha256:35c325a81978da6982f1eb67605366b0a18510c142b7f425c38ce9c805e935ef
